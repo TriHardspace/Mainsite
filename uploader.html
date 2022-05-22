@@ -19,12 +19,11 @@ navbargen();
 </head>
 
 <div style="padding: 80px"/>
-<form action="https://files.trihard.space/" method="post" enctype="form-data">
+<form action="https://files.trihard.space/" method="post" enctype="multipart/form-data">
     <h3 class="text-center"> File Uploader </h3>
     <div style="padding: 5px"/>
     <div class="d-flex form-group justify-content-center">
-    <input type="hidden" name="MAX_FILE_SIZE" value="50000000000"/>
-    <input type="file" id="fileUpload" name="fileUpload"/>
+    <input type="file" id="file" name="file"/>
     <input type="submit" value="Submit"/>
 </div>
 </form>
